@@ -11,5 +11,6 @@ public class Tests_DELETE {
 
 		RestAssured.when().delete("https://reqres.in/api/users/2").then().statusCode(204).log().all();
 	}
+	
 
 }

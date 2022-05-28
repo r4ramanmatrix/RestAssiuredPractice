@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1471" started-at="2022-05-17T15:05:43Z" finished-at="2022-05-17T15:05:45Z">
+  <suite name="Default suite" duration-ms="2390" started-at="2022-05-25T07:02:00Z" finished-at="2022-05-25T07:02:02Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1471" started-at="2022-05-17T15:05:43Z" finished-at="2022-05-17T15:05:45Z">
-      <class name="localhost_API.Tests_PUT">
-        <test-method status="PASS" signature="test_01()[pri:0, instance:localhost_API.Tests_PUT@4563e9ab]" name="test_01" duration-ms="1456" started-at="2022-05-17T20:35:43Z" finished-at="2022-05-17T20:35:45Z">
+    <test name="Default test" duration-ms="2390" started-at="2022-05-25T07:02:00Z" finished-at="2022-05-25T07:02:02Z">
+      <class name="practice_sessions.GET_Test01">
+        <test-method status="PASS" signature="test_01()[pri:0, instance:practice_sessions.GET_Test01@4563e9ab]" name="test_01" duration-ms="1608" started-at="2022-05-25T12:32:00Z" finished-at="2022-05-25T12:32:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_01 -->
-      </class> <!-- localhost_API.Tests_PUT -->
+        <test-method status="PASS" signature="test_02()[pri:0, instance:practice_sessions.GET_Test01@4563e9ab]" name="test_02" duration-ms="697" started-at="2022-05-25T12:32:01Z" finished-at="2022-05-25T12:32:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_02 -->
+        <test-method status="PASS" signature="test_03()[pri:0, instance:practice_sessions.GET_Test01@4563e9ab]" name="test_03" duration-ms="72" started-at="2022-05-25T12:32:02Z" finished-at="2022-05-25T12:32:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_03 -->
+      </class> <!-- practice_sessions.GET_Test01 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
